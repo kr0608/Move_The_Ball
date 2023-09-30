@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+#container{
+    position: relative;
+    height: 80vh;
+    width: 70vw;
+    margin: 6vh auto;
+    border: 5px solid green;
+    background-color: aqua;
+}
+#ball {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: darkred;
+    transition: all .3s;
+}
